@@ -4,3 +4,5 @@ networks:
   default:
     external:
       name: umbrel_main_network
+  swag_network:
+    external: true

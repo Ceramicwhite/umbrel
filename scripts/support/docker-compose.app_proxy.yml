@@ -25,3 +25,6 @@ services:
             UMBREL_AUTH_SECRET: $UMBREL_AUTH_SECRET
             MANAGER_IP: $MANAGER_IP
             MANAGER_PORT: 3006
+        networks:
+            - default
+            - swag_network
